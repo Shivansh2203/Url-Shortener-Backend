@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/dbConfig";
 import shortUrl from "./routes/shortUrl";
-import { error } from "console";
+
 
 dotenv.config();
 connectDB();
